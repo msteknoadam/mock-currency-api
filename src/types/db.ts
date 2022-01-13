@@ -21,3 +21,15 @@ export const fiatRatesT = table(
 	},
 	{ id: tInteger, date: timestamptz }
 );
+
+export const cryptoRatesT = table(
+	{ name: "crypto-rates", schema: "public" },
+	{
+		from: tText,
+		to: tText,
+		name: tText,
+		rate: tNumeric,
+		volume_24h: tNumeric,
+	},
+	{ id: tInteger, date: timestamptz }
+);
