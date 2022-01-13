@@ -12,8 +12,8 @@ class PGTimestampType extends Type<Date, Date, "timestamptz"> {
 }
 const timestamptz = new PGTimestampType();
 
-export const ratesT = table(
-	{ name: "rates", schema: "public" },
+export const fiatRatesT = table(
+	{ name: "fiat-rates", schema: "public" },
 	{
 		from: tText,
 		to: tText,
