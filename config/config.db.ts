@@ -20,9 +20,9 @@ import * as fs from "fs";
 import * as path from "path";
 
 const CONFIG = {
-	dbName: "dbName",
-	username: "username",
-	password: "password",
+	dbName: "currencyApiDb",
+	username: "currencyApiUser",
+	password: "currencyApiPassword",
 };
 
 export type DbConfigType = typeof CONFIG;
