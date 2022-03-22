@@ -11,6 +11,3 @@ CREATE TABLE IF NOT EXISTS public."fiat-rates"
 )
 
 TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public."fiat-rates"
-    OWNER to rates;
