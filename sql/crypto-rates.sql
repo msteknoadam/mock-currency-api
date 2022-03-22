@@ -11,6 +11,3 @@ CREATE TABLE IF NOT EXISTS public."crypto-rates"
 )
 
 TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public."crypto-rates"
-    OWNER to rates;
